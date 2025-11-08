@@ -1,5 +1,4 @@
 import cscoLogo from './assets/new_csco_logo_no_bg.png'
-import './index.css'
 
 function App() {
   return (

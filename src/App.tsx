@@ -10,7 +10,7 @@ function App() {
         {`
           @keyframes bounce-slow {
             0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
+            50% { transform: translateY(-10px); }
           }
 
           @keyframes pulse-slow {
@@ -43,7 +43,7 @@ function App() {
       <div className="absolute bottom-20 right-20 w-32 h-32 bg-yellow-400 opacity-20 rounded-full blur-3xl animate-pulse-slow"></div>
 
       <footer className="mt-16 text-gray-500 dark:text-gray-400 text-sm">
-        &copy; {new Date().getFullYear()} CSCO. All rights reserved.
+        &copy; {new Date().getFullYear()} CSCo. All rights reserved.
       </footer>
     </div>
   )

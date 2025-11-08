@@ -31,7 +31,7 @@ function App() {
       <h1 className="text-5xl font-extrabold mb-4 text-center bg-clip-text text-transparent 
                bg-gradient-to-r from-green-400 to-yellow-400 dark:from-green-300 dark:to-yellow-300 
                animate-pulse-slow leading-snug">
-        Coming Soon
+        Coming Soon!
       </h1>
 
       <p className="text-gray-700 dark:text-gray-300 text-center max-w-md mb-8">

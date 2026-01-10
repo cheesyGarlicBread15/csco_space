@@ -3,8 +3,9 @@ import avatar from '@/assets/images/csco_space_avatar.png'
 import mini_avatar from '@/assets/images/mini_avatar.jpg'
 import card_bg from '@/assets/images/csco_space_card_bg.png'
 
-function App() {
-  return (
+
+export default function Team() {
+      return (
     <div className="min-h-screen bg-background text-foreground transition-colors duration-500 py-12 px-4 relative overflow-hidden">
 
       {/* Animated background circles */}
@@ -130,5 +131,3 @@ function App() {
     </div>
   )
 }
-
-export default App

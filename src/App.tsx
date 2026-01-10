@@ -1,4 +1,9 @@
 import cscoLogo from './assets/new_csco_logo_no_bg.png'
+import ProfileCard from '@/components/profile-card/ProfileCard'
+import avatar from '@/assets/images/test_avatar.jpg'
+import avatar2 from '@/assets/images/test.jpg'
+import logo from '@/assets/new_csco_logo_no_bg.png'
+import card_bg from '@/assets/images/csco_space_card_bg.png'
 
 function App() {
   return (
@@ -52,6 +57,22 @@ function App() {
       <p className="text-gray-700 dark:text-gray-300 text-center max-w-md mb-8">
         Our website is under construction. Stay tuned for updates!
       </p>
+
+      <ProfileCard avatarUrl={avatar} iconUrl={logo} showUserInfo enableMobileTilt enableTilt />
+      <ProfileCard
+        name='Daven R. Alajid'
+        title='4th Year Representative'
+        handle='garlicbread'
+        miniAvatarUrl={avatar}
+        contactText='FB'
+        avatarUrl={avatar2}
+        iconUrl={card_bg}
+        showUserInfo
+        enableMobileTilt
+        enableTilt
+        onContactClick={() => {
+          console.log('asdasd ')
+        }} />
 
       {/* Floating background circles */}
       <div className="absolute top-10 left-10 w-24 h-24 bg-green-400 opacity-20 rounded-full blur-3xl animate-pulse-slow"></div>

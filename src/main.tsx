@@ -7,7 +7,6 @@ import Error from '@/pages/Error';
 import Home from '@/pages/Home';
 import Team from '@/pages/Team';
 import Gallery from '@/pages/Gallery';
-import ContactUs from '@/pages/ContactUs';
 
 const router = createBrowserRouter([
   {
@@ -26,10 +25,10 @@ const router = createBrowserRouter([
         path: '/gallery',
         element: <Gallery />,
       },
-      {
-        path: '/contact',
-        element: <ContactUs />,
-      }
+      // {
+      //   path: '/contact',
+      //   element: <ContactUs />,
+      // }
     ]
   },
 ]);

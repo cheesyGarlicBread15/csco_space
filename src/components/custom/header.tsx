@@ -16,7 +16,7 @@ const navLinks = [
     { name: "Home", path: "/" },
     { name: "Team", path: "/team" },
     { name: "Gallery", path: "/gallery" },
-    { name: "Contact Us", path: "/contact" },
+    // { name: "Contact Us", path: "/contact" },
 ]
 
 export default function Header() {

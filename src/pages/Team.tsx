@@ -322,20 +322,6 @@ export const sections: Section[] = [
             },
         ],
     },
-
-    {
-        title: "Members",
-        persons: [
-            {
-                name: "Stephen Joseph D. Rubin",
-                title: "Chairperson",
-                handle: "ghouter.milly",
-                miniAvatarUrl: imageMap["mini_rubin.jpg"],
-                avatarUrl: imageMap["rubin.png"],
-                onContactClick: "https://www.facebook.com/ghouter.milly"
-            },
-        ],
-    },
 ]
 
 
@@ -404,11 +390,6 @@ export default function Team() {
                         </div>
                     </section>
                 ))}
-
-                {/* Footer */}
-                <footer className="mt-16 text-center text-muted-foreground text-sm">
-                    &copy; {new Date().getFullYear()} CSCo. All rights reserved.
-                </footer>
             </div>
         </div>
     )

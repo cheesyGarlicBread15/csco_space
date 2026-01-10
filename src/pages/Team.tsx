@@ -336,35 +336,52 @@ export default function Team() {
 
             <div className="relative z-10">
                 {/* Main Title */}
-                <h1 className="text-5xl font-extrabold mb-4 text-center 
-                     bg-clip-text text-transparent 
-                     bg-gradient-to-r from-green-400 to-yellow-400 
-                     dark:from-green-300 dark:to-yellow-300 
-                     animate-pulse-slow leading-snug">
-                    CSCO Officers and Volunteers
+                <h1 className="
+    text-4xl sm:text-5xl md:text-5xl
+    font-extrabold 
+    mb-6 sm:mb-8 md:mb-10
+    text-center 
+    bg-clip-text text-transparent 
+    bg-gradient-to-r from-green-400 to-yellow-400 
+    dark:from-green-300 dark:to-yellow-300 
+    animate-pulse-slow 
+    leading-snug
+  ">
+                    CSCO Officers <span className="block sm:inline">and Volunteers</span>
                 </h1>
 
                 {/* Sections */}
                 {sections.map((section) => (
-                    <section key={section.title} className="max-w-7xl mx-auto mb-20">
-                        <div className="text-center mb-16">
-                            <h2 className="relative inline-block text-4xl sm:text-5xl font-extrabold tracking-tight
-                 bg-clip-text text-transparent
-                 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400
-                 dark:from-blue-300 dark:via-purple-300 dark:to-pink-300
-                 drop-shadow-md">
+                    <section key={section.title} className="max-w-7xl mx-auto mb-24 sm:mb-28 md:mb-32">
+                        <div className="text-center mb-8 sm:mb-10 md:mb-12">
+                            <h2 className="
+          relative inline-block 
+          text-3xl sm:text-4xl md:text-5xl
+          font-extrabold 
+          tracking-tight
+          bg-clip-text text-transparent
+          bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400
+          dark:from-blue-300 dark:via-purple-300 dark:to-pink-300
+          drop-shadow-md
+          mb-2
+        ">
                                 {section.title}
                                 {/* Animated glowing underline */}
-                                <span className="absolute -bottom-4 left-1/2 -translate-x-1/2
-                     w-2/3 h-1 rounded-full
-                     bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400
-                     opacity-60 blur-md"></span>
+                                <span className="
+            absolute -bottom-4 left-1/2 -translate-x-1/2
+            w-2/3 h-1 rounded-full
+            bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400
+            opacity-60 blur-md
+          "></span>
                             </h2>
 
                             {/* Optional subtle separator line */}
-                            <div className="mt-6 h-1 w-24 mx-auto rounded-full
-                  bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400
-                  opacity-50"></div>
+                            <div className="
+          mt-4 sm:mt-6 
+          h-1 w-24 mx-auto rounded-full
+          bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400
+          opacity-50
+        "></div>
                         </div>
 
                         <div className="flex flex-wrap justify-center gap-6">

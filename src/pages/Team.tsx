@@ -133,7 +133,7 @@ export const sections: Section[] = [
         title: "Year Level Representatives",
         persons: [
             {
-                name: "Client Michael Juyad",
+                name: "Client Michael M. Juyad",
                 title: "1st Year Representative",
                 handle: "klint.jzd",
                 miniAvatarUrl: imageMap["mini_juyad.png"],
@@ -249,7 +249,7 @@ export const sections: Section[] = [
                 onContactClick: "https://www.facebook.com/glenlanderojr"
             },
             {
-                name: "Destiny Gonzaga",
+                name: "Destiny Andrea Gonzaga",
                 title: "Publication Volunteer",
                 handle: "sh1zu.1",
                 miniAvatarUrl: imageMap["mini_gonzaga.jpg"],
@@ -289,7 +289,7 @@ export const sections: Section[] = [
                 onContactClick: "https://www.facebook.com/johayrah.169453"
             },
             {
-                name: "Ivan Kient Purol",
+                name: "Ivan Kient T. Purol",
                 title: "Publication Volunteer",
                 handle: "ivan.purol.7",
                 miniAvatarUrl: imageMap["mini_purol.png"],
@@ -313,7 +313,7 @@ export const sections: Section[] = [
                 onContactClick: "https://www.facebook.com/kaiideharaz"
             },
             {
-                name: "Jethro Uayan",
+                name: "Jethro D. Uayan",
                 title: "Publication Volunteer",
                 handle: "jethers.uayan.5",
                 miniAvatarUrl: imageMap["mini_uayan.jpg"],

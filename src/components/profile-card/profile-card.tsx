@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useCallback, useMemo } from 'react';
-import './ProfileCard.css';
+import './profile-card.css';
 import { Facebook } from 'lucide-react';
 
 interface ProfileCardProps {

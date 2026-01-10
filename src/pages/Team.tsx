@@ -1,6 +1,4 @@
-import ProfileCard from '@/components/profile-card/ProfileCard'
-import avatar from '@/assets/images/csco_space_avatar.png'
-import mini_avatar from '@/assets/images/mini_avatar.jpg'
+import ProfileCard from '@/components/profile-card/profile-card'
 import card_bg from '@/assets/images/csco_space_card_bg.png'
 import { imageMap } from '@/utils/loadImages'
 

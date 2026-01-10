@@ -243,6 +243,12 @@
   backface-visibility: hidden;
 }
 
+.pc-card:hover .pc-avatar-content,
+.pc-card.active .pc-avatar-content {
+  mix-blend-mode: normal;
+  filter: none;
+}
+
 .pc-avatar-content .avatar {
   width: 100%;
   position: absolute;

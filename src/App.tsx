@@ -2,7 +2,6 @@ import ProfileCard from '@/components/profile-card/ProfileCard'
 import avatar from '@/assets/images/csco_space_avatar.png'
 import mini_avatar from '@/assets/images/mini_avatar.jpg'
 import card_bg from '@/assets/images/csco_space_card_bg.png'
-import { ArrowLeft, Facebook, FacebookIcon, Linkedin, Loader2, LucideFacebook } from 'lucide-react'
 
 function App() {
   return (

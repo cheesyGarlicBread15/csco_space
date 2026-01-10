@@ -20,6 +20,7 @@ interface ProfileCardProps {
   status?: string;
   contactText?: string;
   showUserInfo?: boolean;
+  onCardClick?: () => void;
   onContactClick?: () => void;
 }
 
@@ -57,6 +58,7 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
   status = 'Online',
   contactText = 'Contact',
   showUserInfo = true,
+  onCardClick,
   onContactClick
 }) => {
   const wrapRef = useRef<HTMLDivElement>(null);
@@ -328,10 +330,15 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
     onContactClick?.();
   }, [onContactClick]);
 
+  const handleCardClick = useCallback(() => {
+    onCardClick?.();
+  }, [onCardClick]);
+
+
   return (
     <div ref={wrapRef} className={`pc-card-wrapper ${className}`.trim()} style={cardStyle}>
       {behindGlowEnabled && <div className="pc-behind" />}
-      <div ref={shellRef} className="pc-card-shell">
+      <div ref={shellRef} className="pc-card-shell hover:cursor-pointer" onClick={handleCardClick}>
         <section className="pc-card">
           <div className="pc-inside">
             <div className="pc-shine" />

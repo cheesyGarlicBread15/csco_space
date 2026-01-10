@@ -2,6 +2,7 @@ import ProfileCard from '@/components/profile-card/ProfileCard'
 import avatar from '@/assets/images/csco_space_avatar.png'
 import mini_avatar from '@/assets/images/mini_avatar.jpg'
 import card_bg from '@/assets/images/csco_space_card_bg.png'
+import { ArrowLeft, Facebook, FacebookIcon, Linkedin, Loader2, LucideFacebook } from 'lucide-react'
 
 function App() {
   return (
@@ -31,19 +32,6 @@ function App() {
               title='4th Year Representative'
               handle='davenvinci.alajid'
               miniAvatarUrl={mini_avatar}
-              contactText='FB'
-              avatarUrl={avatar}
-              iconUrl={card_bg}
-              showUserInfo
-              enableMobileTilt
-              enableTilt />
-
-            {/* <ProfileCard
-              name='Daven R. Alajid'
-              title='4th Year Representative'
-              handle='davenvinci.alajid'
-              miniAvatarUrl={mini_avatar}
-              contactText='FB'
               avatarUrl={avatar}
               iconUrl={card_bg}
               showUserInfo
@@ -55,12 +43,22 @@ function App() {
               title='4th Year Representative'
               handle='davenvinci.alajid'
               miniAvatarUrl={mini_avatar}
-              contactText='FB'
               avatarUrl={avatar}
               iconUrl={card_bg}
               showUserInfo
               enableMobileTilt
-              enableTilt /> */}
+              enableTilt />
+
+            <ProfileCard
+              name='Daven R. Alajid'
+              title='4th Year Representative'
+              handle='davenvinci.alajid'
+              miniAvatarUrl={mini_avatar}
+              avatarUrl={avatar}
+              iconUrl={card_bg}
+              showUserInfo
+              enableMobileTilt
+              enableTilt />
           </div>
         </section>
 
@@ -80,26 +78,22 @@ function App() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 justify-items-center">
-            {/* {Array.from({ length: 32 }).map((_, index) => (
+            {Array.from({ length: 32 }).map((_, index) => (
               <ProfileCard
                 key={index}
                 name='Daven R. Alajid'
                 title='4th Year Representative'
                 handle='davenvinci.alajid'
                 miniAvatarUrl={mini_avatar}
-                contactText='FB'
                 avatarUrl={avatar}
                 iconUrl={card_bg}
                 showUserInfo
                 enableMobileTilt
-                enableTilt 
-                onCardClick={() => {
-                  console.log('nav to details')
-                }}
+                enableTilt
                 onContactClick={() => {
                   console.log('nav to social media')
-                }}/>
-            ))} */}
+                }} />
+            ))}
           </div>
         </section>
 

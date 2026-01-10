@@ -227,6 +227,14 @@ export const sections: Section[] = [
                 onContactClick: "https://www.facebook.com/vvwuua"
             },
             {
+                name: "Rea Adreanne R. Caday",
+                title: "External Volunteer",
+                handle: "reaadreanne",
+                miniAvatarUrl: imageMap["mini_caday.jpg"],
+                avatarUrl: imageMap["caday.png"],
+                onContactClick: "https://www.facebook.com/reaadreanne"
+            },
+            {
                 name: "Rigeel G. Daguplo",
                 title: "Internal Volunteer",
                 handle: "rigeel.daguplo",

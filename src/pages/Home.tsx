@@ -63,29 +63,22 @@ export default function HomePage() {
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="grid md:grid-cols-2 gap-16 lg:gap-24">
                         <div className="space-y-4">
-                            <div className="inline-block px-3 py-1 bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300 text-sm font-medium rounded-full mb-2">
+                            <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 dark:text-white leading-tight border-b-4 border-blue-500 pb-2 inline-block">
                                 Mission
-                            </div>
-                            <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 dark:text-white leading-tight">
-                                Representing with integrity
                             </h2>
                             <p className="text-zinc-600 dark:text-zinc-400 text-lg leading-relaxed">
-                                To represent the student body with integrity, promote inclusive leadership,
-                                and collaborate with the administration to advance student welfare and
-                                academic excellence.
+                                <span className="text-5xl sm:text-6xl font-bold text-zinc-900 dark:text-white float-left mr-3 leading-none">T</span>
+                                o provide CISC students with a platform that allows them to discover and engage their strengths, talents, and passions but at the same time bring forth a new formation of knowledge in the field of Information and Communication Technology on a global scale.
                             </p>
                         </div>
 
                         <div className="space-y-4">
-                            <div className="inline-block px-3 py-1 bg-purple-100 dark:bg-purple-950 text-purple-700 dark:text-purple-300 text-sm font-medium rounded-full mb-2">
+                            <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 dark:text-white leading-tight border-b-4 border-purple-500 pb-2 inline-block">
                                 Vision
-                            </div>
-                            <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 dark:text-white leading-tight">
-                                Empowering our community
                             </h2>
                             <p className="text-zinc-600 dark:text-zinc-400 text-lg leading-relaxed">
-                                A united and empowered student community actively shaping a progressive
-                                and student-centered institution.
+                                <span className="text-5xl sm:text-6xl font-bold text-zinc-900 dark:text-white float-left mr-3 leading-none">T</span>
+                                he students in the College of Information Sciences and Computing are empowered, united and actively involved in a positive environment set by the College of Information Sciences and Computing Student Council.
                             </p>
                         </div>
                     </div>

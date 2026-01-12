@@ -7,7 +7,7 @@ import { AppLogo } from "../app-logo"
 const navLinks = [
     { name: "Home", path: "/" },
     { name: "Team", path: "/team" },
-    { name: "Gallery", path: "/gallery" },
+    // { name: "Gallery", path: "/gallery" },
     // { name: "Contact Us", path: "/contact" },
 ]
 

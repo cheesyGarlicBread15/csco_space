@@ -327,7 +327,7 @@ export const sections: Section[] = [
 
 export default function Team() {
     return (
-        <div className="min-h-screen bg-background text-foreground py-12 px-4 relative overflow-hidden">
+        <div className="min-h-screen bg-background text-foreground py-12 px-6 relative overflow-hidden">
             {/* Animated background */}
             <div className="absolute top-10 left-10 w-64 h-64 bg-green-400/10 rounded-full blur-3xl animate-pulse" />
             <div className="absolute top-40 right-20 w-96 h-96 bg-yellow-400/10 rounded-full blur-3xl animate-pulse" />

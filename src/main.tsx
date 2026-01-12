@@ -22,14 +22,14 @@ const router = createBrowserRouter([
         path: '/team',
         element: <Team />,
       },
-      {
-        path: '/gallery',
-        element: <Gallery />,
-      },
-      {
-        path: '/verifier',
-        element: <Verifier />,
-      },
+      // {
+      //   path: '/gallery',
+      //   element: <Gallery />,
+      // },
+      // {
+      //   path: '/verifier',
+      //   element: <Verifier />,
+      // },
       // {
       //   path: '/contact',
       //   element: <ContactUs />,

@@ -15,8 +15,8 @@ import {
 const navLinks = [
     { name: "Home", path: "/" },
     { name: "Team", path: "/team" },
-    { name: "Gallery", path: "/gallery" },
-    { name: "Verifier", path: "/verifier" },
+    // { name: "Gallery", path: "/gallery" },
+    // { name: "Verifier", path: "/verifier" },
 ]
 
 export default function Header() {

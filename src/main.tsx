@@ -7,6 +7,7 @@ import Error from '@/pages/Error';
 import Home from '@/pages/Home';
 import Team from '@/pages/Team';
 import Gallery from '@/pages/Gallery';
+import Verifier from '@/pages/Verifier';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/gallery',
         element: <Gallery />,
+      },
+      {
+        path: '/verifier',
+        element: <Verifier />,
       },
       // {
       //   path: '/contact',

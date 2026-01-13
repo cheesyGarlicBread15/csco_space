@@ -29,11 +29,11 @@ export const sections: Section[] = [
                 onContactClick: "https://www.facebook.com/ghouter.milly"
             },
             {
-                name: "Jacob Hermon C. Pescacio",
+                name: "Jacob Hermon C. Pescasio",
                 title: "Vice Chairperson Internal",
                 handle: "hakobiiiii",
-                miniAvatarUrl: imageMap["mini_pescacio.jpg"],
-                avatarUrl: imageMap["pescacio.png"],
+                miniAvatarUrl: imageMap["mini_pescasio.jpg"],
+                avatarUrl: imageMap["pescasio.png"],
                 onContactClick: "https://www.facebook.com/hakobiiiii"
             },
             {

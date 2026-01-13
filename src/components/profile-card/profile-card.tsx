@@ -380,8 +380,8 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
               )}
             </div>
             <div className="pc-content">
-              <div className="pc-details">
-                <h3>{name}</h3>
+              <div className="pc-details gap-3">
+                <h3 className='leading-none'>{name}</h3>
                 <p>{title}</p>
               </div>
             </div>

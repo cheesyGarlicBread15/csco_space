@@ -3,12 +3,14 @@
 import { Button } from "@/components/ui/button";
 import team from "@/assets/images/team.jpg"
 import { Link } from "react-router-dom";
+import logo from '@/assets/new_csco_logo_no_bg.png'
+
 
 export default function HomePage() {
     return (
         <div className="min-h-screen bg-white dark:bg-zinc-950">
             {/* Hero Section */}
-            <section className="relative py-40 sm:py-52 overflow-hidden">
+            <section className="relative py-20 sm:py-32 overflow-hidden">
                 {/* Background Effects */}
                 <div className="absolute inset-0 z-0">
                     <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-500/20 dark:bg-blue-500/10 rounded-full blur-3xl"></div>
@@ -18,6 +20,42 @@ export default function HomePage() {
 
                 <div className="relative z-10 max-w-7xl mx-auto px-6 text-center space-y-8">
                     <div className="space-y-6">
+                        <style>
+                            {`
+          @keyframes bounce-slow {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+          }
+
+          @keyframes pulse-slow {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+          }
+
+          @keyframes shadow-scale {
+            0%, 100% { transform: scaleX(1) scaleY(1); opacity: 0.25; }
+            50% { transform: scaleX(1.3) scaleY(0.7); opacity: 0.15; }
+          }
+
+          .animate-bounce-slow { animation: bounce-slow 3s infinite; }
+          .animate-pulse-slow { animation: pulse-slow 4s infinite; }
+          .animate-shadow { animation: shadow-scale 3s infinite; }
+        `}
+                        </style>
+
+                        <div className="flex justify-center">
+                            <img
+                                src={logo}
+                                alt="CSCo Logo"
+                                className="
+                w-32 h-32 sm:w-40 sm:h-40
+                object-contain
+                animate-float
+                drop-shadow-[0_0_25px_rgba(59,130,246,0.25)]
+                animate-bounce-slow
+              "
+                            />
+                        </div>
                         <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold tracking-tight text-zinc-900 dark:text-white">
                             CSCo
                         </h1>
@@ -144,5 +182,6 @@ export default function HomePage() {
                 </div>
             </section> */}
         </div>
+
     );
 }

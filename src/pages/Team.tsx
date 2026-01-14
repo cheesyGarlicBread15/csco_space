@@ -326,6 +326,8 @@ export const sections: Section[] = [
 
 
 export default function Team() {
+    const isMobile = window.matchMedia('(pointer: coarse)').matches;
+    
     return (
         <div className="min-h-screen bg-background text-foreground py-12 px-6 relative overflow-hidden">
             {/* Animated background */}
@@ -395,8 +397,7 @@ export default function Team() {
                                     avatarUrl={person.avatarUrl}
                                     iconUrl={card_bg}
                                     showUserInfo
-                                    enableMobileTilt
-                                    enableTilt
+                                    enableTilt={!isMobile}
                                     onContactClick={() => {
                                         if (person.onContactClick) {
                                             window.open(person.onContactClick, "_blank", "noopener,noreferrer")

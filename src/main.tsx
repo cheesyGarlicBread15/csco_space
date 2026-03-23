@@ -6,6 +6,7 @@ import AppLayout from '@/pages/layouts/AppLayout';
 import Error from '@/pages/Error';
 import Home from '@/pages/Home';
 import Team from '@/pages/Team';
+import { Analytics } from "@vercel/analytics/react"
 
 const router = createBrowserRouter([
   {
@@ -39,5 +40,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <Analytics />
   </StrictMode>,
 )

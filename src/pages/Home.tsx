@@ -102,7 +102,7 @@ export default function HomePage() {
                     <div className="grid md:grid-cols-2 gap-16 lg:gap-24">
                         <div className="space-y-4">
                             <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900 dark:text-white leading-tight border-b-4 border-blue-500 pb-2 inline-block">
-                                Hazel was here
+                                Hazel was here!!
                             </h2>
                             <p className="text-zinc-600 dark:text-zinc-400 text-lg leading-relaxed">
                                 <span className="text-5xl sm:text-6xl font-bold text-zinc-900 dark:text-white float-left mr-3 leading-none">T</span>
